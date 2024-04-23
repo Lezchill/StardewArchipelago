@@ -15,7 +15,6 @@ using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Menus;
 using StardewValley.Quests;
-using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
 namespace StardewArchipelago.GameModifications.Tooltips
 {
@@ -166,7 +165,7 @@ namespace StardewArchipelago.GameModifications.Tooltips
 
                 var birthdays = __instance.GetBirthdays();
 
-                for (int i = 0; i < __instance.calendarDays.Count; i++)
+                for (var i = 0; i < __instance.calendarDays.Count; i++)
                 {
                     var day = i + 1;
                     if (!__instance.calendarDays[i].bounds.Contains(x, y))

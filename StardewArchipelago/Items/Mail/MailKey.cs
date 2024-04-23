@@ -6,7 +6,7 @@ namespace StardewArchipelago.Items.Mail
     public class MailKey
     {
         private const string AP_PREFIX = "AP";
-        private static Random _random = new Random((int)Game1.uniqueIDForThisGame);
+        private static Random _random = new((int)Game1.uniqueIDForThisGame);
         public string ItemName { get; set; }
         public string PlayerName { get; set; }
         public string LocationName { get; set; }
