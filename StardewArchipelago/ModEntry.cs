@@ -335,7 +335,6 @@ namespace StardewArchipelago
                 _modStateInitializer = new InitialModGameStateInitializer(Monitor, _archipelago);
                 _hintHelper = new HintHelper();
                 Game1.chatBox?.addMessage($"Connected to Archipelago as {_archipelago.SlotData.SlotName}. Type !!help for client commands", Color.Green);
-
             }
             catch (Exception)
             {
@@ -415,7 +414,6 @@ namespace StardewArchipelago
 
         private void DoBugsCleanup()
         {
-
         }
 
         private void OnDayEnding(object sender, DayEndingEventArgs e)

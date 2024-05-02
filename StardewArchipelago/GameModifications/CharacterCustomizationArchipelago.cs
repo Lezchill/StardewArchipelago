@@ -266,7 +266,6 @@ namespace StardewArchipelago.GameModifications
             favThingBox.Text = "No Bugs";
             skipIntroField.SetValue(true);
             skipIntroButton.sourceRect.X = 236;
-
         }
     }
 }

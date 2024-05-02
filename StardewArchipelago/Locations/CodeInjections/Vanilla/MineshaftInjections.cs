@@ -65,7 +65,6 @@ namespace StardewArchipelago.Locations.CodeInjections.Vanilla
                 _locationChecker.AddCheckedLocation(string.Format(TREASURE_LOCATION, Game1.mine.mineLevel));
 
                 return false; // don't run original logic
-
             }
             catch (Exception ex)
             {
@@ -94,7 +93,6 @@ namespace StardewArchipelago.Locations.CodeInjections.Vanilla
                 };
 
                 return false; // don't run original logic
-
             }
             catch (Exception ex)
             {
@@ -143,7 +141,6 @@ namespace StardewArchipelago.Locations.CodeInjections.Vanilla
                 CreateElevatorMenuIfUnlocked();
                 __result = true;
                 return false; // don't run original logic
-
             }
             catch (Exception ex)
             {
@@ -166,7 +163,6 @@ namespace StardewArchipelago.Locations.CodeInjections.Vanilla
                 CreateElevatorMenuIfUnlocked();
                 __result = true;
                 return false; // don't run original logic
-
             }
             catch (Exception ex)
             {
