@@ -81,7 +81,7 @@ namespace StardewArchipelago.Bundles
             { "Spirit's Eve", 352 },
             { "Winter Star", 353 },
             { "Calico", 354 },
-            { "Raccoon", 358 },
+            { "Raccoon", 118 },
 
             { "Demolition", 272 },
             { "Paleontologist's", 247 },
