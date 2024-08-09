@@ -10,5 +10,6 @@
         public const string SPECIAL_PUMPKIN_SOUP = "44120020";
         public const string GINGER_TINCTURE_ALECTO = "181091237";
         public const string GINGER_TINCTURE_WIZARD = "1810912313";
+        public const string BLUE_ORB = "98880001";
     }
 }

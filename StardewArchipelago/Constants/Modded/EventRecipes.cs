@@ -18,6 +18,7 @@ namespace StardewArchipelago.Constants.Modded
         {
             { EventIds.GINGER_TINCTURE_ALECTO, "Ginger Tincture" },
             { EventIds.GINGER_TINCTURE_WIZARD, "Ginger Tincture" },
+            { EventIds.BLUE_ORB, "Blue Orb"},
         };
 
         public static readonly string[] QuestEventsWithRecipes =
