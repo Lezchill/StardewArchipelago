@@ -120,6 +120,10 @@ namespace StardewArchipelago.Bundles
             { "Carnival", 293 },
             { "Walnut Hunter", 294 },
             { "Qi's Helper", 295 },
+
+            { "Pokemon Fishing", 401 },
+            { "Pokemon Foraging", 402 },
+            { "Shiny Pokemon", 403 },
         };
 
         private const int BUNDLE_GREEN = 0;
@@ -247,6 +251,10 @@ namespace StardewArchipelago.Bundles
             { "Carnival", BUNDLE_ORANGE },
             { "Walnut Hunter", BUNDLE_YELLOW },
             { "Qi's Helper", BUNDLE_PURPLE },
+
+            { "Pokemon Fishing", BUNDLE_RED },
+            { "Pokemon Foraging", BUNDLE_RED },
+            { "Shiny Pokemon", BUNDLE_YELLOW },
         };
     }
 }
